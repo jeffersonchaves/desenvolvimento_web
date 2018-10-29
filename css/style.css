@@ -1,0 +1,84 @@
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+header.container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.menu-opcoes {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.menu-opcoes ul li {
+    display: inline-block;
+}
+
+.menu-opcoes ul li a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.menu-opcoes ul li a:visited {
+    color: pink;
+    border: solid 1px;
+}
+
+.menu-cabecalho{}
+
+
+.menu-lateral {
+    position: relative;
+    float: left;
+    width: 230px;
+}
+
+.menu-lateral ul li a {
+    display: block;
+    background: #efefef;
+    border-bottom:solid 2px #ccc;
+    padding: 10px;
+
+    text-decoration: none;
+    color: #333;
+}
+
+.menu-lateral ul li a:hover {
+    background: #ccc;
+    margin-left: 2px;
+}
+
+
+
+.slideshow {
+    position: relative;
+    float: right;
+}
+
+/*estilo para sacola*/
+.sacola {
+    border: solid 1px red;
+    width: 150px;
+    font-size: 14px;
+    padding-right: 35px;
+    padding-top: 10px;
+    background: url("../imgs/sacola.png") no-repeat;
+    background-position: right;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    vmin: 500px;
+}
